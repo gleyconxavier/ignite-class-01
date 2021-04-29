@@ -12,6 +12,10 @@ export function RepositoryList() {
             <h1>Lista de repositórios</h1>
 
             <ul>
+              {/*
+                For testing purposes let's check how React react (lmao)
+                to different ways of passing through props to child components
+              */}
               < RepositoryItem
                       name="linux-configs"
                       description="My wierd but working linux configs"
