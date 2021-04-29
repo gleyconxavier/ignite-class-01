@@ -1,5 +1,6 @@
-export function App() {
-  throw new Error('Algo realmente deu errado');
+import './styles/global.scss';
+import {RepositoryList} from "./components/RepositoryList";
 
-  return <h1>Teste app react</h1>
+export function App() {
+  return <RepositoryList/>
 }
